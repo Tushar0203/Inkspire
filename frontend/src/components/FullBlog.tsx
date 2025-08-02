@@ -1,13 +1,12 @@
 import { Avatar } from "./BlogCard"
 
 interface BlogCardInputs {
-    id:string,
     title: string,
     content: string,
     author: string,
     publishedDate: string
 }
-export const FullBlog=({id,title,content,author,publishedDate}: BlogCardInputs)=>{
+export const FullBlog=({title,content,author,publishedDate}: BlogCardInputs)=>{
     
     console.log(title)
     return(<div className="grid grid-cols-12  w-full p-20">

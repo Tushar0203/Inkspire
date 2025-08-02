@@ -15,6 +15,6 @@ export const Blog=()=>{
   );
     }
     return(<div>
-        <FullBlog id={blog.id} title={blog.title } content={blog.content} author={blog.author.name || "Anonymous"} publishedDate="May 19,2025"/>
+        <FullBlog title={blog.title } content={blog.content} author={blog.author.name || "Anonymous"} publishedDate="May 19,2025"/>
     </div>)
 }
